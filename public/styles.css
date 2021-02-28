@@ -16,6 +16,7 @@ footer {
 .headings {
     font-weight: 600;
 }
+
 .sticky-top.scrolled {
     background-color: #D0D0D0;
     transition: background-color 200ms linear;
@@ -26,4 +27,14 @@ footer {
 }
 #mainNavbar .nav-link:hover{
     color: red;
+}
+.blink{
+    animation:blinkingText 1.2s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: #000;    }
+    49%{    color: yellow; }
+    60%{    color: blue; }
+    99%{    color: brown;  }
+    100%{   color: transparent;    }
 }
