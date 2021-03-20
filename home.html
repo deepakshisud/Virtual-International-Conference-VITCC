@@ -73,35 +73,33 @@
         </div>
         <div class="row py-5">
           <div class="col-3">
-            <p>event starts in:</p>
-            <p id="demo"></p>
 
-            <!-- Display the countdown timer in an element -->
-            <p id="demo"></p>
+           
+            
+            
+            <div id="clockdiv">
+              <div>
+                <span class="days"></span>
+                <div class="smalltext">Days</div>
+              </div>
+              <div>
+                <span class="hours"></span>
+                <div class="smalltext">Hours</div>
+              </div>
+              <div>
+                <span class="minutes"></span>
+                <div class="smalltext">Minutes</div>
+              </div>
+              <div>
+                <span class="seconds"></span>
+                <div class="smalltext">Seconds</div>
+              </div>
 
-            <script>
-            var countDownDate = new Date("Dec 5, 2021 15:37:25").getTime();
-            var x = setInterval(function() {
-              var now = new Date().getTime();
-              var distance = countDownDate - now;
+           
+              
+            </div>
 
 
-              var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-              var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-              var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-              var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-
-              document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-              + minutes + "m " + seconds + "s ";
-
-
-              if (distance < 0) {
-                clearInterval(x);
-                document.getElementById("demo").innerHTML = "EXPIRED";
-              }
-            }, 1000);
-            </script>
           </div>
           <div class="col-lg-6 md-12">
             <p class="h5 text-center">
@@ -183,5 +181,8 @@
           });
         });
       </script>
+
+      <script src="Script.js"></script>
+
 </body>
 </html>
