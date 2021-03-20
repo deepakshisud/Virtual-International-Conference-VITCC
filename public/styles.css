@@ -47,8 +47,6 @@ h1{
 }
 
 #clockdiv{
-	font-family: sans-serif;
-	color: rgb(0, 0, 0);
 	display: flex;
 	font-weight: 30;
 	text-align: center;
@@ -57,24 +55,25 @@ h1{
     position: relative;
     display: flex;
     flex-direction: row;
-    font-size: 30px;
+    font-size: 23px;
     text-align: center;
+    justify-content: center;
    
 }
 
 #clockdiv > div{
 	padding: 10px;
 	border-radius: 10px solid;
-	background: #1b0ed6;
+
 	display: inline-block;
 }
 
 #clockdiv div > span{
 	padding: 15px;
 	border-radius: 3px;
-	background: #393742;
+	background: white;
 	display: block;
-    color: rgb(99, 99, 179);
+    color: #3c5a96;
   
 }
 
