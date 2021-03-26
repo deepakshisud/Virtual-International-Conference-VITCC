@@ -1,4 +1,9 @@
-
+.hr{
+    width: 100px;
+    border-top: 5px solid #19243a;
+    margin: auto;
+    color: #3c5a96;
+}
 .carousel .carousel-item {
     height: 500px;
   }
@@ -14,4 +19,6 @@
 #vit {
     justify-content: end;
 }
+
+
 
