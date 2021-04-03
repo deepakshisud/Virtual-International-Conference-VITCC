@@ -1,0 +1,38 @@
+.card-img-top{
+    box-shadow: 0 5px 10px rgba(0,0,0,0,5);
+    height: 200px; 
+    object-fit: scale-down;
+    
+
+
+
+}
+
+.card-body{
+
+    text-overflow: ellipsis;
+    text-align: center;
+
+    box-shadow: 0px 15px 15px -8px rgba(0,0,0,0,5);
+
+}
+
+.card-body h6{
+    text-align: center;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    
+
+}
+
+.card-title{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+.mt-n1 {
+    margin-top: 5rem !important;
+  }
+  
