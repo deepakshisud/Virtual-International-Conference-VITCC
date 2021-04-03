@@ -38,5 +38,5 @@ function initializeClock(id, endtime) {
   const timeinterval = setInterval(updateClock, 1000);
 }
 
-const deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000);
+const deadline = 'Fri Dec 10 2021 10:45:46 GMT+0530 (India Standard Time)'
 initializeClock('clockdiv', deadline);
