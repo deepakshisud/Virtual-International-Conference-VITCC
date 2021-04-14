@@ -39,13 +39,17 @@
 						<a class="nav-link" href="about-vit.html">About VIT</a>
 					  </li>
 					  <li class="nav-item">
-						<a class="nav-link" href="#">Registration</a>
+						<a class="nav-link popup" onclick="myFunction()">Registration
+						  <span class="popuptext" id="myPopup">Under construction!</span>
+						</a>
 					  </li>
 					  <li class="nav-item">
 						<a class="nav-link" href="advisory-board.html">Advisory Board</a>
 					  </li>
 					  <li class="nav-item">
-						<a class="nav-link" href="#">Conference Speaker</a>
+						<a class="nav-link popup2" onclick="myFunction2()">Conference Speaker
+						  <span class="popuptext2" id="myPopup2">Under construction!</span>
+						</a>
 					  </li>
 					  <li class="nav-item">
 						<a class="nav-link" href="track-details.html">Call for Papers</a>
@@ -342,6 +346,14 @@
             $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
           });
         });
+		function myFunction() {
+          var popup = document.getElementById("myPopup");
+          popup.classList.toggle("show");
+        }
+        function myFunction2() {
+          var popup = document.getElementById("myPopup2");
+          popup.classList.toggle("show");
+        }
       </script>
 
       <script src="Script.js"></script>
