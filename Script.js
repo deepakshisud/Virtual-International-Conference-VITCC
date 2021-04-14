@@ -40,3 +40,4 @@ function initializeClock(id, endtime) {
 
 const deadline = 'Fri Dec 10 2021 10:45:46 GMT+0530 (India Standard Time)'
 initializeClock('clockdiv', deadline);
+
