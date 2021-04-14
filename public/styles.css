@@ -14,7 +14,7 @@ footer {
     font-weight: 800;
 }
 .headings {
-    font-weight: 600;
+    font-weight: 800;
 }
 .hr{
     width: 100px;
@@ -28,7 +28,7 @@ footer {
 
 .sticky-top.scrolled {
     background-color: #D0D0D0;
-    transition: background-color 200ms linear;
+    transition: background-color 50ms linear;
   }
 #mainNavbar .nav-link{
     color: #3c5a96;
