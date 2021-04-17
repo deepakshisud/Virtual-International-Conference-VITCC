@@ -14,7 +14,6 @@ border-radius: 10px;
 }  
   
 #timeline h3{
-    font-family: Open Sans;
 font-style: normal;
 font-weight: bold;
 font-size: 22px;
@@ -72,7 +71,6 @@ background: #3c5a96;
           
 #timeline h4{
             
-            font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -82,7 +80,6 @@ background: #3c5a96;
           }
 #timeline p{
             
-            font-family: Open Sans;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
