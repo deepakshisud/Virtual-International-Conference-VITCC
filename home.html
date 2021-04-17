@@ -45,8 +45,8 @@
                     <a class="nav-link" href="advisory-board.html">Advisory Board</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link popup2" onclick="myFunction2()">Conference Speaker
-                      <span class="popuptext2" id="myPopup2">Under construction!</span>
+                    <a class="nav-link popup" onclick="myFunction()">Conference Speaker
+                      <span class="popuptext" id="myPopup">Under construction!</span>
                     </a>
                   </li>
                   <li class="nav-item">
@@ -67,50 +67,10 @@
         </div>
     </div>
   </nav>
-      <div class="container-fluid pb-3 fill">
-        <div class="container-fluid">
-          <section class="timeline pl-5">
-            <ol class="pl-5">
-              <li>
-                <div>
-                  <time>1st September</time> Full Paper Submission
-                </div>
-              </li>
-              <li>
-                <div>
-                  <time>1st November</time> Final Accepted Notification
-                </div>
-              </li>
-              <li>
-                <div>
-                  <time>1st November- 10th November</time>Early bird Registration
-                </div>
-              </li>
-              <li>
-                <div>
-                  <time>10th November</time>Camera ready final paper
-                </div>
-              </li>
-              <li>
-                <div>
-                  <time>30th November</time>Last date for conference registration
-                </div>
-              </li>
-              <li></li>
-            </ol>
-        </div>
-        <div class="row pb-4">
-          <div class="col-4"></div>
-          <div class="text-center col-xs-4">
-            <button class="btn btn-md btn-danger">Register</button>
-            <button class="btn btn-md btn-danger mx-3" onclick="document.location='track-details.html'">Call for Papers</a></button>
-            <button class="btn btn-md btn-danger">Paper Submission</button>
-          </div>
-          <div class="col-lg-4"></div>
-        </div>
+      <div class="container-fluid pb-3 pt-5 fill">
         <div class="row">
           <div class="col-lg-3 md-12">
-            <div id="clockdiv">
+            <div id="clockdiv" class="mb-0">
               <div>
                 <span class="days"></span>
                 <div class="smalltext">Days</div>
@@ -128,30 +88,53 @@
                 <div class="smalltext">Seconds</div>
               </div>
             </div>
-            <table id="customers">
-              <tr>
-                <th>Registration Fee</th>
-                <th>Indian (INR)</th>
-                <th>Foreign (USD)</th>
-              </tr>
-              <tr>
-                <td>Faculty/Industry/Student</td>
-                <td>4000*</td>
-                <td>250</td>
-              </tr>
-              <tr>
-                <th>Early bird Registration</th>
-                <th></th>
-                <th></th>
-              </tr>
-              <tr>
-                <td>Faculty/Industry/Student</td>
-                <td>3000*</td>
-                <td>200</td>
-              </tr>
-            </table>
-            <br>
-            <p>*inclusive of GST</p>
+    <div class="timeline" id="timeline">
+      <div class="box" id="timeline">
+        
+        <div class="container" id="timeline">
+          
+          <div class="lines">
+            <div class="dot"></div>
+            <div class="line"></div>
+            <div class="dot"></div>
+            <div class="line"></div>
+            <div class="dot"></div>
+            <div class="line"></div>
+            <div class="dot"></div>
+            <div class="line"></div>
+            <div class="dot"></div>
+          </div>
+          
+          <div class="cards" id="timeline">
+            <div class="card" id="timeline">
+              
+              <h4 id="timeline">1st Sep, 2021</h4>
+              <p id="timeline">Full Paper Submission<br></p>
+            </div>
+             <div class="card" id="timeline">
+              
+              <h4 id="timeline">1st Nov, 2021</h4>
+              <p id="timeline">Final Accepted Notification<br></p>
+            </div>
+             <div class="card" id="timeline">
+              
+              <h4 id="timeline">1st Nov-10th Nov, 2021</h4>
+              <p id="timeline">Early bird Registration<br></p>
+            </div>
+            <div class="card" id="timeline">
+              <h4 id="timeline">10th Nov, 2021</h4>
+              <p id="timeline">Camera ready final paper<br></p>
+            </div>
+            <div class="card" id="timeline">
+              <h4 id="timeline">30th Nov, 2021</h4>
+              <p id="timeline">Last date for conference <br>
+                registration
+              </p>
+            </div>
+          </div>
+          </div>
+          </div>
+          </div>
           </div>
           <div class="col-lg-6 md-12">
             <div class="row text-center">
@@ -184,6 +167,15 @@
                 for delivering keynote talks and invited lectures. Research papers presented in this forum
                 would be published in peer-reviewed scopus indexed publications.
             </p>
+            <div class="row pb-4">
+              <div class="col-4"></div>
+              <div class="text-center col-xs-4 d-flex flex-row justify-content-center">
+                <button class="btn btn-md btn-danger">Register</button>
+                <button class="btn btn-md btn-danger mx-3" onclick="document.location='track-details.html'">Call for Papers</a></button>
+                <button class="btn btn-md btn-danger">Paper Submission</button>
+              </div>
+              <div class="col-lg-4"></div>
+          </div>
           </div>
           <div class="col-lg-3">
             <div class="card">
@@ -198,6 +190,31 @@
                   </ul>
                 </marquee>
               </div>
+              </div>
+              <table id="customers" class="mt-5">
+                <tr>
+                  <th>Registration Fee</th>
+                  <th>Indian (INR)</th>
+                  <th>Foreign (USD)</th>
+                </tr>
+                <tr>
+                  <td>Faculty/Industry/Student</td>
+                  <td>4000*</td>
+                  <td>250</td>
+                </tr>
+                <tr>
+                  <th>Early bird Registration</th>
+                  <th></th>
+                  <th></th>
+                </tr>
+                <tr>
+                  <td>Faculty/Industry/Student</td>
+                  <td>3000*</td>
+                  <td>200</td>
+                </tr>
+              </table>
+              <br>
+              <p>*inclusive of GST</p>
             </div>
             <!-- Button to Open the Modal -->
             <!-- The Modal -->
